@@ -1,0 +1,35 @@
+.login-form {
+    padding: 10%;
+    top: 30%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+    font-family: Montserrat;
+    font-size: 24px;
+  }
+
+  .login-input-group {
+    background-color: #161825;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.398041);
+    padding: 15px;
+    display: flex;
+    margin: 1%;
+
+    .login-input {
+      width: 85%;
+      border: none;
+      background-color: inherit;
+    }
+
+    .login-email {
+      font-style: normal;
+      font-weight: 300;
+      line-height: 25px;
+      letter-spacing: 0.5px;
+      color: #FFFFFF;
+    }
+  }
+
+ 
