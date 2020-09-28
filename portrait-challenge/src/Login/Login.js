@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.scss';
+import check from '../Icons/check.png';
 
 function Login() {
     return (
@@ -8,6 +9,9 @@ function Login() {
                 <div className="col-12">
                     <div className="login-input-group">
                         <input placeholder="google@gmail.com" type="email" className="login-input login-email" />
+                        <span className="login-input-icon">
+                            <img className="rounded" src={check} alt="check" /> 
+                        </span>
                     </div>
                 </div>
             </div>
@@ -15,6 +19,9 @@ function Login() {
                 <div className="col-12">
                     <div className="login-input-group">
                         <input className="login-input" type="password" placeholder="Your password"/>
+                        <span className="login-input-icon">
+                            <button className="login-show-password-button">show</button>
+                        </span>
                     </div>
                 </div>
             </div>

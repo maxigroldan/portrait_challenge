@@ -32,7 +32,7 @@
     margin-top: 10%;
     box-sizing: padding-box;
   }
-  
+
   .login-sing-in-form {
     height: 100%;
     width: 100%;
@@ -54,6 +54,14 @@
     width: 100%;
     min-height: 53px;
     padding: auto;
+  }
+
+  .login-show-password-button {
+    font-size: 16px;
+    background: #FCF9F1;
+    backdrop-filter: blur(43.444px);
+    border-radius: 50px;
+    text-transform: uppercase;
   }
 
   .login-new-account-button { 
