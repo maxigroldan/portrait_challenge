@@ -76,4 +76,58 @@
     text-transform: uppercase;
   }
 }
+
+@media(max-width: 360px) {
+  .login-form {
+    font-size: 16px;
+
+    .login-input {
+      width: 100%;
+    }
+    
+    .login-input-icon {
+      visibility: hidden;
+    }
+
+    .login-show-password-button {
+      font-size: 8px;
+    }
+  }
+}
+  
+@media(max-width: 375px) {
+  .login-form {
+    font-size: 20px;
+  }
+}
+  
+@media(max-width: 749px) { 
+  .login-show-password-button {
+    font-size: 12px;
+  }
+}
+  
+@media(min-width: 750px) {
+  .login-form {
+    width: 750px;
+    padding: 1%;
+
+    .login-input {
+      width: 95%;
+    }
+  }
+}
+  
+@media(min-height: 1300px) {
+  .login-form {
+    top: 40%;
+  }
+}
+  
+@media(min-height: 1500px) {
+  .login-form {
+    top: 55%;
+    font-size: 40px;
+  }
+}
  
